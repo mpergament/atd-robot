@@ -7,6 +7,8 @@ Library           AristaLibrary.Expect
 Library           Collections
 Library           Process
 
+Variables     /opt/atd/topologies/${TOPOLOGY}/topo_build.yml
+
 *** Variables ***
 ${TRANSPORT}    http
 ${LEAF1}    None
